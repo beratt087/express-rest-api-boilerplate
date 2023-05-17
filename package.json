@@ -1,5 +1,5 @@
 {
-  "name": "viiyoli-be",
+  "name": "express-rest-api-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "Luadex Bilişim Teknolojileri",
+  "author": "beratt087",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
