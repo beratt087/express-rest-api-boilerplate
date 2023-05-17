@@ -1,5 +1,5 @@
 import express from "express"
-import AccountController from "../controllers/AccountController";
+import AccountController from "../controllers/AccountController.js";
 
 const AccountRouter = express.Router()
 
@@ -11,6 +11,6 @@ AccountRouter.get('/changepw', (req, res) => {
     res.send('here is /account/changepw page')
 })
 
-AccountRouter.get('/create-account', AccountController.createAccount(/* you can send params */))
+AccountRouter.get('/create-account', AccountController.createAccount)
 
 export default AccountRouter
